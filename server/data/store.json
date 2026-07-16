@@ -1,0 +1,418 @@
+{
+  "users": [
+    {
+      "id": "mrmdoe2wvwpr479",
+      "name": "Alex Johnson",
+      "email": "demo@taskflow.io",
+      "password": "$2a$10$5lsYsx.ZVTImGs0FKrPUO.MkWHjJk5lFm8cTxamwPBIcEgyjOOeEy",
+      "avatar": null,
+      "bio": "Full-stack developer | Open-source enthusiast",
+      "isVerified": true,
+      "verificationToken": null,
+      "resetToken": null,
+      "resetTokenExpiry": null,
+      "createdAt": "2026-06-15T17:52:42.056Z",
+      "updatedAt": "2026-07-15T17:52:42.056Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "mrmdoe7pc23c4zz",
+      "userId": "mrmdoe2wvwpr479",
+      "title": "Design landing page mockup",
+      "description": "Detailed description for \"Design landing page mockup\". Keep track of progress and update status accordingly.",
+      "status": "in-progress",
+      "priority": "high",
+      "category": "Work",
+      "tags": [
+        "work",
+        "high"
+      ],
+      "dueDate": "2026-07-06",
+      "reminder": null,
+      "attachments": [],
+      "createdAt": "2026-07-02T17:52:42.056Z",
+      "updatedAt": "2026-07-15T17:52:42.056Z"
+    },
+    {
+      "id": "mrmdoe7p6uhl1nb",
+      "userId": "mrmdoe2wvwpr479",
+      "title": "Write unit tests for auth module",
+      "description": "Detailed description for \"Write unit tests for auth module\". Keep track of progress and update status accordingly.",
+      "status": "todo",
+      "priority": "medium",
+      "category": "Work",
+      "tags": [
+        "work",
+        "medium"
+      ],
+      "dueDate": "2026-07-09",
+      "reminder": null,
+      "attachments": [],
+      "createdAt": "2026-06-28T17:52:42.056Z",
+      "updatedAt": "2026-07-15T17:52:42.056Z"
+    },
+    {
+      "id": "mrmdoe7plzfwjx7",
+      "userId": "mrmdoe2wvwpr479",
+      "title": "Read Clean Code — chapter 4",
+      "description": "Detailed description for \"Read Clean Code — chapter 4\". Keep track of progress and update status accordingly.",
+      "status": "completed",
+      "priority": "low",
+      "category": "Learning",
+      "tags": [
+        "learning",
+        "low"
+      ],
+      "dueDate": "2026-07-12",
+      "reminder": null,
+      "attachments": [],
+      "createdAt": "2026-06-30T17:52:42.056Z",
+      "updatedAt": "2026-07-15T17:52:42.056Z"
+    },
+    {
+      "id": "mrmdoe7pqsobk75",
+      "userId": "mrmdoe2wvwpr479",
+      "title": "Morning workout session",
+      "description": "Detailed description for \"Morning workout session\". Keep track of progress and update status accordingly.",
+      "status": "completed",
+      "priority": "medium",
+      "category": "Health",
+      "tags": [
+        "health",
+        "medium"
+      ],
+      "dueDate": "2026-07-15",
+      "reminder": null,
+      "attachments": [],
+      "createdAt": "2026-07-06T17:52:42.056Z",
+      "updatedAt": "2026-07-15T17:52:42.056Z"
+    },
+    {
+      "id": "mrmdoe7pie2c8p1",
+      "userId": "mrmdoe2wvwpr479",
+      "title": "Review Q3 budget report",
+      "description": "Detailed description for \"Review Q3 budget report\". Keep track of progress and update status accordingly.",
+      "status": "todo",
+      "priority": "high",
+      "category": "Finance",
+      "tags": [
+        "finance",
+        "high"
+      ],
+      "dueDate": "2026-07-18",
+      "reminder": null,
+      "attachments": [],
+      "createdAt": "2026-07-09T17:52:42.056Z",
+      "updatedAt": "2026-07-15T17:52:42.056Z"
+    },
+    {
+      "id": "mrmdoe7qqvjhz8s",
+      "userId": "mrmdoe2wvwpr479",
+      "title": "Fix navbar responsive bug",
+      "description": "Detailed description for \"Fix navbar responsive bug\". Keep track of progress and update status accordingly.",
+      "status": "in-progress",
+      "priority": "high",
+      "category": "Work",
+      "tags": [
+        "work",
+        "high"
+      ],
+      "dueDate": "2026-07-21",
+      "reminder": null,
+      "attachments": [],
+      "createdAt": "2026-07-10T17:52:42.056Z",
+      "updatedAt": "2026-07-15T17:52:42.056Z"
+    },
+    {
+      "id": "mrmdoe7qfufh9p7",
+      "userId": "mrmdoe2wvwpr479",
+      "title": "Prepare project presentation",
+      "description": "Detailed description for \"Prepare project presentation\". Keep track of progress and update status accordingly.",
+      "status": "completed",
+      "priority": "high",
+      "category": "Work",
+      "tags": [
+        "work",
+        "high"
+      ],
+      "dueDate": "2026-07-24",
+      "reminder": null,
+      "attachments": [],
+      "createdAt": "2026-07-05T17:52:42.056Z",
+      "updatedAt": "2026-07-15T17:52:42.056Z"
+    },
+    {
+      "id": "mrmdoe7qspztj1v",
+      "userId": "mrmdoe2wvwpr479",
+      "title": "Buy groceries for the week",
+      "description": "Detailed description for \"Buy groceries for the week\". Keep track of progress and update status accordingly.",
+      "status": "completed",
+      "priority": "low",
+      "category": "Personal",
+      "tags": [
+        "personal",
+        "low"
+      ],
+      "dueDate": "2026-07-06",
+      "reminder": null,
+      "attachments": [],
+      "createdAt": "2026-07-11T17:52:42.056Z",
+      "updatedAt": "2026-07-15T17:52:42.056Z"
+    },
+    {
+      "id": "mrmdoe7qtchgjun",
+      "userId": "mrmdoe2wvwpr479",
+      "title": "Complete JavaScript course",
+      "description": "Detailed description for \"Complete JavaScript course\". Keep track of progress and update status accordingly.",
+      "status": "in-progress",
+      "priority": "medium",
+      "category": "Learning",
+      "tags": [
+        "learning",
+        "medium"
+      ],
+      "dueDate": "2026-07-09",
+      "reminder": null,
+      "attachments": [],
+      "createdAt": "2026-07-09T17:52:42.056Z",
+      "updatedAt": "2026-07-15T17:52:42.056Z"
+    },
+    {
+      "id": "mrmdoe7q1e4gnzx",
+      "userId": "mrmdoe2wvwpr479",
+      "title": "Schedule dentist appointment",
+      "description": "Detailed description for \"Schedule dentist appointment\". Keep track of progress and update status accordingly.",
+      "status": "todo",
+      "priority": "medium",
+      "category": "Health",
+      "tags": [
+        "health",
+        "medium"
+      ],
+      "dueDate": "2026-07-12",
+      "reminder": null,
+      "attachments": [],
+      "createdAt": "2026-07-12T17:52:42.056Z",
+      "updatedAt": "2026-07-15T17:52:42.056Z"
+    },
+    {
+      "id": "mrmdoe7qt9zsjp8",
+      "userId": "mrmdoe2wvwpr479",
+      "title": "Deploy staging environment",
+      "description": "Detailed description for \"Deploy staging environment\". Keep track of progress and update status accordingly.",
+      "status": "todo",
+      "priority": "high",
+      "category": "Work",
+      "tags": [
+        "work",
+        "high"
+      ],
+      "dueDate": "2026-07-15",
+      "reminder": null,
+      "attachments": [],
+      "createdAt": "2026-07-03T17:52:42.056Z",
+      "updatedAt": "2026-07-15T17:52:42.056Z"
+    },
+    {
+      "id": "mrmdoe7qfvfxgkr",
+      "userId": "mrmdoe2wvwpr479",
+      "title": "Update portfolio website",
+      "description": "Detailed description for \"Update portfolio website\". Keep track of progress and update status accordingly.",
+      "status": "completed",
+      "priority": "medium",
+      "category": "Personal",
+      "tags": [
+        "personal",
+        "medium"
+      ],
+      "dueDate": "2026-07-18",
+      "reminder": null,
+      "attachments": [],
+      "createdAt": "2026-07-06T17:52:42.056Z",
+      "updatedAt": "2026-07-15T17:52:42.056Z"
+    },
+    {
+      "id": "mrmdoe7qfkyarfr",
+      "userId": "mrmdoe2wvwpr479",
+      "title": "Set up CI/CD pipeline",
+      "description": "Detailed description for \"Set up CI/CD pipeline\". Keep track of progress and update status accordingly.",
+      "status": "todo",
+      "priority": "medium",
+      "category": "Work",
+      "tags": [
+        "work",
+        "medium"
+      ],
+      "dueDate": "2026-07-21",
+      "reminder": null,
+      "attachments": [],
+      "createdAt": "2026-07-13T17:52:42.056Z",
+      "updatedAt": "2026-07-15T17:52:42.056Z"
+    },
+    {
+      "id": "mrmdoe7qlbs3kfa",
+      "userId": "mrmdoe2wvwpr479",
+      "title": "Research investment options",
+      "description": "Detailed description for \"Research investment options\". Keep track of progress and update status accordingly.",
+      "status": "todo",
+      "priority": "low",
+      "category": "Finance",
+      "tags": [
+        "finance",
+        "low"
+      ],
+      "dueDate": "2026-07-24",
+      "reminder": null,
+      "attachments": [],
+      "createdAt": "2026-07-03T17:52:42.056Z",
+      "updatedAt": "2026-07-15T17:52:42.056Z"
+    },
+    {
+      "id": "mrmdoe7qze3xsnz",
+      "userId": "mrmdoe2wvwpr479",
+      "title": "Practice meditation daily",
+      "description": "Detailed description for \"Practice meditation daily\". Keep track of progress and update status accordingly.",
+      "status": "completed",
+      "priority": "low",
+      "category": "Health",
+      "tags": [
+        "health",
+        "low"
+      ],
+      "dueDate": "2026-07-06",
+      "reminder": null,
+      "attachments": [],
+      "createdAt": "2026-07-04T17:52:42.056Z",
+      "updatedAt": "2026-07-15T17:52:42.056Z"
+    },
+    {
+      "id": "mrmdoe7qw3iheeb",
+      "userId": "mrmdoe2wvwpr479",
+      "title": "Refactor database queries",
+      "description": "Detailed description for \"Refactor database queries\". Keep track of progress and update status accordingly.",
+      "status": "todo",
+      "priority": "medium",
+      "category": "Work",
+      "tags": [
+        "work",
+        "medium"
+      ],
+      "dueDate": "2026-07-09",
+      "reminder": null,
+      "attachments": [],
+      "createdAt": "2026-06-28T17:52:42.056Z",
+      "updatedAt": "2026-07-15T17:52:42.056Z"
+    },
+    {
+      "id": "mrmdoe7qc7wqsd0",
+      "userId": "mrmdoe2wvwpr479",
+      "title": "Learn Docker basics",
+      "description": "Detailed description for \"Learn Docker basics\". Keep track of progress and update status accordingly.",
+      "status": "completed",
+      "priority": "medium",
+      "category": "Learning",
+      "tags": [
+        "learning",
+        "medium"
+      ],
+      "dueDate": "2026-07-12",
+      "reminder": null,
+      "attachments": [],
+      "createdAt": "2026-07-06T17:52:42.056Z",
+      "updatedAt": "2026-07-15T17:52:42.056Z"
+    },
+    {
+      "id": "mrmdoe7qua5so7e",
+      "userId": "mrmdoe2wvwpr479",
+      "title": "Plan weekend trip itinerary",
+      "description": "Detailed description for \"Plan weekend trip itinerary\". Keep track of progress and update status accordingly.",
+      "status": "archived",
+      "priority": "low",
+      "category": "Personal",
+      "tags": [
+        "personal",
+        "low"
+      ],
+      "dueDate": "2026-07-15",
+      "reminder": null,
+      "attachments": [],
+      "createdAt": "2026-07-10T17:52:42.056Z",
+      "updatedAt": "2026-07-15T17:52:42.056Z"
+    },
+    {
+      "id": "mrmdoe7q3y34iap",
+      "userId": "mrmdoe2wvwpr479",
+      "title": "Implement dark mode toggle",
+      "description": "Detailed description for \"Implement dark mode toggle\". Keep track of progress and update status accordingly.",
+      "status": "archived",
+      "priority": "low",
+      "category": "Work",
+      "tags": [
+        "work",
+        "low"
+      ],
+      "dueDate": "2026-07-18",
+      "reminder": null,
+      "attachments": [],
+      "createdAt": "2026-06-28T17:52:42.056Z",
+      "updatedAt": "2026-07-15T17:52:42.056Z"
+    },
+    {
+      "id": "mrmdoe7qhpmaejw",
+      "userId": "mrmdoe2wvwpr479",
+      "title": "Track monthly expenses",
+      "description": "Detailed description for \"Track monthly expenses\". Keep track of progress and update status accordingly.",
+      "status": "todo",
+      "priority": "medium",
+      "category": "Finance",
+      "tags": [
+        "finance",
+        "medium"
+      ],
+      "dueDate": "2026-07-21",
+      "reminder": null,
+      "attachments": [],
+      "createdAt": "2026-07-05T17:52:42.056Z",
+      "updatedAt": "2026-07-15T17:52:42.056Z"
+    },
+    {
+      "id": "mrmdwlr3k0rr8lc",
+      "userId": "mrmdoe2wvwpr479",
+      "title": "segsrg",
+      "description": "",
+      "status": "todo",
+      "priority": "medium",
+      "category": "Work",
+      "tags": [],
+      "dueDate": "2026-07-15",
+      "reminder": "2026-07-18T23:29",
+      "attachments": [],
+      "createdAt": "2026-07-15T17:59:05.247Z",
+      "updatedAt": "2026-07-15T17:59:05.247Z"
+    }
+  ],
+  "activity": [
+    {
+      "id": "mrnonzgyywyects",
+      "userId": "mrmdoe2wvwpr479",
+      "action": "LOGIN",
+      "detail": "Logged in",
+      "timestamp": "2026-07-16T15:48:05.074Z"
+    },
+    {
+      "id": "mrmdwlr73c850ci",
+      "userId": "mrmdoe2wvwpr479",
+      "action": "CREATE_TASK",
+      "detail": "Created task: \"segsrg\"",
+      "timestamp": "2026-07-15T17:59:05.251Z"
+    },
+    {
+      "id": "mrmdq58r4v9dbbl",
+      "userId": "mrmdoe2wvwpr479",
+      "action": "LOGIN",
+      "detail": "Logged in",
+      "timestamp": "2026-07-15T17:54:03.915Z"
+    }
+  ]
+}
