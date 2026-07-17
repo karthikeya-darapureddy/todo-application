@@ -1,7 +1,7 @@
 'use client';
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { useRouter, useSearchParams } from 'next/navigation';
+import { useRouter } from 'next/navigation';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
@@ -19,8 +19,7 @@ const schema = z.object({
 
 export default function ResetPasswordPage() {
   const router = useRouter();
-  const searchParams = useSearchParams();
-  const token = searchParams.get('token');
+  const [token, setToken] = useState('');
   const { resetPassword, isLoading } = useAuthStore();
   const [showPass, setShowPass] = useState(false);
 
@@ -31,6 +30,13 @@ export default function ResetPasswordPage() {
     const result = await resetPassword(token, data.password);
     if (result.success) router.push('/login');
   };
+
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    const params = new URLSearchParams(window.location.search);
+    const urlToken = params.get('token');
+    setToken(urlToken || '');
+  }, []);
 
   if (!token) {
     return (
